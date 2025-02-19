@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0170)https://ges2.galileo.edu/dotlrn/classes/IVN/IVN.cursoslibres/introduccinalaprogramacindecomputadoras2025/evaluation/view/ActividadJS%5f19000503.html?revision_id=121693479 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="robots" content="noindex">
+
+
+  
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+// Solicitar datos al usuario
+var mes = parseInt(prompt("Ingrese el número de su mes de nacimiento (Ejemplo: 5 para mayo):"));
+var dia = parseInt(prompt("Ingrese el día de su nacimiento:"));
+
+// Variable para almacenar el signo
+var signo = "";
+
+// Determinar el signo zodiacal según el mes y día
+switch (mes) {
+    case 1: // Enero
+        signo = (dia <= 19) ? "Capricornio" : "Acuario";
+        break;
+    case 2: // Febrero
+        signo = (dia <= 18) ? "Acuario" : "Piscis";
+        break;
+    case 3: // Marzo
+        signo = (dia <= 20) ? "Piscis" : "Aries";
+        break;
+    case 4: // Abril
+        signo = (dia <= 19) ? "Aries" : "Tauro";
+        break;
+    case 5: // Mayo
+        signo = (dia <= 20) ? "Tauro" : "Géminis";
+        break;
+    case 6: // Junio
+        signo = (dia <= 20) ? "Géminis" : "Cáncer";
+        break;
+    case 7: // Julio
+        signo = (dia <= 22) ? "Cáncer" : "Leo";
+        break;
+    case 8: // Agosto
+        signo = (dia <= 22) ? "Leo" : "Virgo";
+        break;
+    case 9: // Septiembre
+        signo = (dia <= 22) ? "Virgo" : "Libra";
+        break;
+    case 10: // Octubre
+        signo = (dia <= 22) ? "Libra" : "Escorpio";
+        break;
+    case 11: // Noviembre
+        signo = (dia <= 21) ? "Escorpio" : "Sagitario";
+        break;
+    case 12: // Diciembre
+        signo = (dia <= 21) ? "Sagitario" : "Capricornio";
+        break;
+    default:
+        signo = "Error: Mes inválido.";
+}
+
+// Mostrar el resultado al usuario
+alert("Tu signo zodiacal es: " + signo);
+
+</script>
+</body></html>
