@@ -1,0 +1,1 @@
+He escodigo la Licencia gratuita académica v3.0	AFL-3.0 porque este repo es para fines academicos
