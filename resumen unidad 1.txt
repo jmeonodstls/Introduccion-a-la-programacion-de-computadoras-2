@@ -1,0 +1,5 @@
+Temas importantes:
+    Me parece intersante como funciona el sistema binario. La logica nos da el orden para entender un resolver un problema. Y me interesa como un algoritmo pueda estructurar y dar orden
+
+Temas con dificultad:
+    El sistema bianario y sus calculos

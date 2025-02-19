@@ -1,0 +1,5 @@
+Temas importantes:
+    Me pare importante los tipos de datos y operadores, asi como las esctructuras de control y los bucles. Asi como el uso de Java
+
+Temas con dificultad:
+    Uso de java y entender su sintaxis y unirlo con la logica de programacion

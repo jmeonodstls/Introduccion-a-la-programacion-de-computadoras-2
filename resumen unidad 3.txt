@@ -1,0 +1,5 @@
+Temas importantes:
+    Me parece imporatnte el uso de git y github para llevar el control de versiones dl codigo
+
+Temas con dificultad:
+    Se me dificulto crear el repo en github desde la linea de comandos
